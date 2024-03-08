@@ -1,0 +1,349 @@
+.a4-page {
+  position: relative;
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: rgb(245, 240, 240);
+  box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+  padding: 20mm;
+  page-break-after: always;
+}
+.navbar-1{
+  background-color: rgb(78, 105, 78);
+  color: rgb(241, 232, 232);
+  font-size: 20px;
+  position: absolute;
+  width: 210mm;
+  padding: 5mm 20mm;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+}
+.p-info{
+  margin-top: 100px;
+}
+.p-info h2{
+  color: rgb(78, 105, 78);
+  font-size: xx-large;
+}
+.one{
+  margin-bottom: 20px;
+  display: flex;
+}
+.one input{
+  display: inline;
+  padding-right: 52px;
+  margin-right: 6px;
+  margin-left: 5px;
+  font-size: large;
+  width: 30%;
+  border-radius: 5px;
+  height: 20px;
+  border-color: rgb(78, 105, 78);
+}
+.one label{
+  display: inline;
+  font-size: 16px;
+  color:  rgb(78, 105, 78) ;
+  font-weight: bold;
+}
+.one input[type="text"]{
+  font-size: 14px;
+  padding-left: 4px;
+  border-width: 1px;
+}
+.one ::placeholder{
+  font-size: 14px;
+}
+.two input{
+  display: inline;
+  padding-right: 55px;
+  margin-right: 7px;
+  margin-left: 5px;
+  font-size: large;
+  width: 30%;
+  border-radius: 5px;
+  height: 20px;
+  border-color: rgb(78, 105, 78) ;
+  border-width: 1px;
+}
+.two input[type="text"]{
+  font-size: 14px;
+  padding-left: 4px;
+}
+.two label{
+  font-size: 16px;
+  color:  rgb(78, 105, 78);
+  font-weight: bold;
+}
+.two ::placeholder{
+  font-size: 14px;
+}
+.three p{
+  font-size: 16px;
+  color:  rgb(78, 105, 78) ;
+  font-weight: bold;
+}
+.three{
+  margin-bottom:20px
+}
+#one label{
+  font-size: 16px;
+  color:  rgb(78, 105, 78);
+  font-weight: bold;
+}
+#one input{
+  display: inline;
+  padding-right: 55px;
+  margin-right: 7px;
+  margin-left: 5px;
+  font-size: large;
+  width: 30%;
+  border-radius: 5px;
+  height: 20px;
+  border-color: rgb(78, 105, 78);
+  border-width: 1px;
+}
+#one input[type="text"]{
+  font-size: 14px;
+  padding-left: 4px;
+}
+#two label{
+  font-size: 16px;
+  color:  rgb(78, 105, 78) ;
+  font-weight: bold;
+}
+#two input{
+  display: inline;
+  padding-right: 55px;
+  margin-right: 7px;
+  margin-left: 5px;
+  font-size: large;
+  width: 30%;
+  border-radius: 5px;
+  height: 20px;
+  border-color: rgb(78, 105, 78) ;
+  border-width: 1px;
+}
+#two input[type="text"]{
+  font-size: 14px;
+  padding-left: 4px;
+}
+.about{
+  display: flex;
+}
+.about label{
+  font-size: 16px;
+  color:  rgb(78, 105, 78) ;
+  font-weight: bold;
+  display: flex;
+  margin-bottom:10px;
+}
+.about input{
+  color: rgb(78, 105, 78) ;
+}
+#two input[type="text"]{
+  font-size: 14px;
+  border-width: 1px;
+}
+.edu{
+  display: flex;
+}
+.edu label{
+  margin-right: 100px;
+  font-size: 16px;
+  color:  rgb(78, 105, 78);
+  font-weight: bold;
+  display: flex;
+  margin-bottom:10px;
+}
+.edu input{
+  color: rgb(78, 105, 78) ;
+  width: 300px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: medium;
+  padding-left: 5px;
+  border-color:  rgb(78, 105, 78) ;
+
+}
+.ten label{
+  margin-right: 100px;
+  font-size: 16px;
+  color:  rgb(78, 105, 78) ;
+  font-weight: bold;
+  display: flex;
+  margin-bottom:10px;
+}
+.ten ol{
+  color: rgb(78, 105, 78) ;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.ten li{
+  margin-bottom: 7px;
+}
+.ten input[type="text"]{
+  border: none;
+  background-color: rgb(245, 240, 240) ;
+}
+.ten button{
+  background-color:   rgb(78, 105, 78);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+}
+.ten button:hover{
+  cursor: pointer;
+}
+#prev-jobs label,input{
+  margin-bottom: 20px;
+  color:   rgb(78, 105, 78);
+
+}
+#prev-jobs label{
+  font-weight: bold;
+}
+#add-job{
+  background-color:   rgb(78, 105, 78);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+}
+#add-job:hover{
+  cursor: pointer;
+}
+.skills button{
+  background-color:   rgb(78, 105, 78);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+}
+.skills button:hover{
+  cursor: pointer;
+}
+.skills input[type="text"]{
+  border: none;
+  background-color: rgb(245, 240, 240) ;
+}
+.certifications button{
+  background-color:  rgb(78, 105, 78);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+}
+.certifications button:hover{
+  cursor: pointer;
+}
+.availability{
+  font-weight: bold;
+  color:  rgb(78, 105, 78);
+}
+.availability input,select{
+  color: rgb(78, 105, 78) ;
+}
+.ref label{
+  font-weight: bold;
+  color: rgb(78, 105, 78) ;
+}
+.ref input{
+  color: rgb(104, 129, 104) ;
+}
+.qs {
+  margin-bottom: 20px;
+}
+
+.qs label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.qs textarea {
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.tacbox {
+  display:block;
+  padding: 1em;
+  margin: 2em;
+  border: 3px solid #ddd;
+  background-color: #eee;
+  max-width: 800px;
+}
+
+.tacbox  input {
+  height: 2em;
+  width: 7em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+#submit-btn{
+  float: right;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  border-color:  rgb(104, 129, 104) ;
+  cursor: pointer;
+  box-shadow: 2px 3px 3px  rgb(104, 129, 104);
+  font-size: small;
+}
+#submit-btn:hover {
+  background-color: rgb(179, 190, 179) ;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+  display: none; 
+  margin-top: 20px; 
+}
+#data-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  
+}
+
+#data-table tr:nth-child(even) {
+  background-color: #e6dddd; 
+}
+
+#data-table tr:hover {
+  background-color: #ddd; 
+}
+
+#data-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:  rgb(104, 129, 104); 
+  color: white;
+  
+}
+@media (max-width: 768px) {
+  #data-table td, #data-table th {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

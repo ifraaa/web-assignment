@@ -1,0 +1,220 @@
+
+.a4-page {
+    position: relative;
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: rgb(245, 240, 240);
+    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+    padding: 20mm;
+    page-break-after: always;
+  }
+  #top-bar {
+    background-color: rgb(49, 54, 80);
+    height: 180px;
+    width: 98%;
+    position: absolute;
+    top: 25px;  
+    right: 0; /* Ensures the bar stretches across the top */
+    justify-content: space-between; /* Align children on opposite ends */
+    /* Align children vertically */
+    
+}
+.pfp {
+    position: absolute; /* Absolute position within the top-bar div */
+    left: 7px; /* Align to the rightmost part */
+    top: 50%; /* Align to the top, adjusted to center with transform */
+    transform: translateY(-50%); /* Center it vertically */
+}
+
+.pfp img {
+    width: 130px; /* Adjust the size as needed */
+    height: 130px; /* Same as the width to maintain aspect ratio for a circle */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover; /* Cover the area without stretching */
+    /* Add a border if needed */
+}
+#top-bar h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-weight: lighter;
+    line-height: 0px;
+    font-size: 30px;
+}
+#top-bar h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 150px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    line-height: 0px;
+    font-weight: lighter;
+    line-height: 0px;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+#top-bar hr{
+    color: white;
+    background: white;
+    height: 0.8px;
+    margin-top: 15px;
+    width: 25%;
+    position: absolute;
+    margin-left: 150px;
+}
+#top-bar p{
+    color: white;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 35px;
+    font-weight: lighter;
+}
+.info{
+    height: 800px;
+    width: 20%;
+    margin-top: 140px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+.info img{
+    height: 25px;
+    margin-top:20px ;
+}
+.info a{
+    color:rgb(49, 54, 80) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.info p{
+    
+    color:rgb(49, 54, 80) ;
+    font-weight: 600;
+}
+.info h1{
+    color:rgb(30, 36, 61) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.info hr{
+    color: rgb(30, 36, 61) ;
+    background-color:rgb(30, 36, 61) ;
+    height: 2px;
+    width: 100%;
+    line-height: 0px;
+}
+#two{
+    display: inline-block;
+  padding: 8px 15px;
+  background-color: rgb(49, 54, 80) ; 
+  color: white; 
+  border-radius: 10px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14px;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2); 
+  text-align: center;
+  margin: 5px 0 7px 0;
+  font-weight: 300;
+}
+#one{
+    color: rgb(49, 54, 80) ; 
+    font-family: Arial, Helvetica, sans-serif; 
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 0;
+}
+#three{
+    display: inline-block;
+  padding: 4px 8px;
+  background-color: white ; 
+  color: rgb(38, 43, 66); 
+  border-radius: 6px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14px;
+  text-align: center;
+  margin: 5px 0 7px 0;
+  font-weight: 600;
+  border: rgb(76, 80, 104) 1px solid;
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2); 
+}
+.edu{
+    height: 900px;
+    width: 70%;
+    margin-top: 140px;
+    margin-left: 20%;
+    position: absolute;
+    
+}
+.edu h1{
+    color: rgb(49, 54, 80) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.edu hr{
+    color: rgb(30, 36, 61) ;
+    background-color:rgb(30, 36, 61) ;
+    height: 2px;
+    width: 100%;
+    line-height: 0px;
+}
+.edu h2{
+    color: rgb(49, 54, 80) ; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-bottom: 0;
+}
+.edu h3{
+    color: rgb(49, 54, 80) ; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.edu p{
+    color: rgb(73, 77, 95) ; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 2px;
+    font-size: 15px;
+}
+.edu ul {
+    list-style-type: square;
+    padding-left: 0; /* Removes default padding */
+   
+    color: rgb(49, 54, 80);
+  }
+  
+.edu li {
+    margin-bottom: 10px; /* Adds space between the items */
+    font-family: Arial, sans-serif; /* Your preferred font */
+    font-size: 18px; /* Adjust as needed */
+    color: rgb(34, 36, 46);
+    padding-bottom: 20px;
+  }
+  
+.edu li::before {
+    content: "◦"; /* Custom bullet symbol */
+    color: rgb(49, 54, 80); /* Bullet color */
+    display: inline-block; 
+    width: 1em; /* Ensures that bullets are aligned */
+    margin-left: -1em; /* Pulls bullets into alignment */
+  }
+  
+.edu strong {
+    font-weight: bold; /* Makes the project title bold */
+  }
+  .edu h4{
+    color: rgb(49, 54, 80) ; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }

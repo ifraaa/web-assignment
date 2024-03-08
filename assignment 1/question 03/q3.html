@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="q3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+
+</head>
+<body style="background-color: rgb(184, 197, 180);">
+<div class="a4-page">
+
+  <form id="my-form">
+    <div class="navbar-1">
+      <h1>Job Application</h1>
+    </div>
+    <div class="p-info">
+      <h2>Personal Information</h2>
+      <div class="one">
+        <label for="fname">First Name:*</label>
+        <input type="text" name="First Name" placeholder="Enter your first name here" id="fname">
+        <label for="lname">Last Name:*</label>
+        <input type="text" name="Last Name" placeholder="Enter your Last name here" id="lname">
+      </div>
+      <div class="two">
+        <label for="phone">Phone No. :*</label>
+        <input type="text" name="Phone No" placeholder="0000-0000000" id="phone">
+        <label for="email">Email : *</label>
+        <input type="text" name="Email" placeholder="Enter your email here" id="email">
+
+      </div>
+      <div class="three" id="one">
+        <p>Enter your complete address*</p>
+        <label for="Street">Street :</label>
+        <input type="text" name="Street" id="street" placeholder="Enter your street no.">
+        <label for="City">City :</label>
+        <input type="text" name="City" placeholder="Enter city name">
+      </div>
+      <div class="three" id="two">
+        <label for="state">State :</label>
+        <input type="text" name="State" id="state" placeholder="Enter state name">
+        <label for="zip">Zip Code :</label>
+        <input type="text" name="Zip" id="zip" placeholder="Enter your zip code">
+      </div>
+      <p style="color:  rgb(104, 129, 104);">(asterik represents the required feilds)</p>
+
+    </div>
+    <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">About</h2>
+    <div class="about">
+
+      <div class="four">
+        <label for="resume">Upload your Resume*</label>
+        <input name ="Resume File" type="file">
+      </div>
+      <div class="five">
+        <label for="cover-letter">Upload your Cover Letter*</label>
+        <input name="Cover Letter File" type="file">
+      </div>
+
+    </div>
+    <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Education</h2>
+    <div class="edu">
+      <div>
+        <div class="six">
+          <label for="highest">Highest Level of Education Attained :</label>
+          <input  name="Highest" type="text">
+
+        </div>
+        <div class="seven">
+          <label for="univ">School/University :</label>
+          <input name="University"type="text">
+        </div>
+      </div>
+      <div>
+        <div class="eight">
+          <label for="Major">Major/Area of Study :</label>
+          <input name="Major" type="text">
+        </div>
+        <div class="nine">
+          <label for="grad-year">Year of Graduation :</label>
+          <input type="month">
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="ten">
+        <label for="employment-history">Employment History</label>
+        <ol id="employment-history-list">
+          <li>
+            <input type="text" name="Employment History" placeholder="Enter your past employment">
+          </li>
+        </ol>
+        <button type="button" id="add-history">Add another job</button>
+      </div>
+    </div>
+    <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Previous Job Titles</h2>
+    <div id="prev-jobs">
+      <label for="company">Company Name :</label>
+      <input name="Company" type="text">
+      <br>
+      <label for="emp-date">Employemeny Period :</label>
+      <input name="Start Date" type="date"> to
+      <input name="End Date" type="date">
+      <br>
+      <label for="job-resp">Job responsibilities :</label>
+      <input name= "Job Responsibilities" type="text">
+      <br>
+      <hr>
+
+    </div>
+    <button type="button" id="add-job">Add Another Job</button>
+    <div class="row">
+      <div class="column">
+        <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Skills</h2>
+        <div class="skills">
+          <ol id="skills-list">
+            <li>
+              <input type="text" name="Skill" placeholder="Enter your skill">
+            </li>
+          </ol>
+          <button type="button" id="add-skill">Add skill</button>
+        </div>
+      </div>
+      <div class="column">
+        <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Certifications</h2>
+        <div class="certifications">
+          <ol id="certificates-list">
+            <li>
+              <input type="file" name="certificates">
+            </li>
+          </ol>
+          <button type="button" id="add-certificate">Add another</button>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="column">
+        <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Availability</h2>
+        <div class="availability">
+          <label for="start-date">Start Date :</label>
+          <input type="date" name="Availability " id="start-date" name="start-date">
+          <br>
+          <label for="work-schedule">Preferred Work Schedule :</label>
+          <select id="work-schedule" name="Work Schedule">
+            <option value="full-time">Full Time</option>
+            <option value="part-time">Part Time</option>
+            <option value="flexible">Flexible</option>
+          </select>
+          <br>
+          <legend style="margin-top: 20px;margin-bottom: 15px;">Willingness to Relocate</legend>
+          <label>
+            <input type="radio" name="Willingness to Relocate" value="yes">
+            Yes
+            <input type="radio" name="Willingness to Relocate" value="no">
+            No
+          </label>
+        </div>
+      </div>
+      <div class="column">
+        <h2 style="color: rgb(104, 129, 104); font-size: xx-large;">Reference</h2>
+        <div class="ref">
+          <label for="ref">Reference Name :</label>
+          <input name ="Reference Name" type="text">
+          <br>
+          <label for="ref-contact">Reference contact :</label>
+          <input name="Reference contact" type="text">
+          <br>
+          <label for="rel">Relationship :</label>
+          <input name="Relationship" type="text">
+          <br>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div style="color:  rgb(104, 129, 104) ;font-weight: bold;" class="qs">
+      <label for="ques">Why do you want to work for this company?</label>
+      <textarea name="Reason for Application" id="reason-for-interest" cols="30" rows="5"></textarea>
+    </div>
+    <fieldset style="color:  rgb(104, 129, 104) ; border-color:  white;">
+      <h2>Terms and Conditions :</h2>
+      <ul>
+        <li>Your employment with the Company is at-will, meaning either you or the Company may terminate the employment relationship at any time, with or without cause or notice.</li>
+        <li>You will be employed in the capacity of [Job Title], and you agree to perform the duties and responsibilities as may be assigned to you by the Company.</li>
+        <li>You will be compensated at the rate of [amount] per [hour/year], payable in accordance with the Company’s standard payroll schedule.</li>
+        <li>You will be eligible to participate in the standard benefits plans offered by the Company, subject to the terms and eligibility requirements of each benefits program.</li>
+        <li>Your standard work schedule will be [number] hours per week, with the expectation of additional hours as required by your job duties.</li>
+        <li>During the term of your employment and thereafter, you agree to hold in strictest confidence any proprietary information or trade secrets obtained during your employment.</li>
+        <li>By accepting employment with the Company, you acknowledge that you have read, understood, and agree to abide by these terms and conditions.</li>
+
+      </ul>
+    </fieldset>
+    <div class="tacbox">
+      <input id="checkbox" type="checkbox" />
+      <label for="checkbox"> I agree to these Terms and Conditions.</label>
+    </div>
+    <button type="submit" id="submit-btn">Submit</button>
+    <h3 id="heading" style="color:  rgb(78, 105, 78); display: none;">Your Form has been submitted successfully!!</h3>
+    <button id="view-tbl" style="display: none; padding: 7px 20px 7px 20px;  border-color:  rgb(104, 129, 104) ;  cursor: pointer; border-radius: 5px; cursor: pointer;">View as table</button>
+  </form>
+  <div style=" display: none; " id="data-table">
+
+  </div>
+</div>
+<script src="q3.js"></script>
+</body>
+
+</html>
